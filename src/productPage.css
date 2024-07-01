@@ -1,0 +1,19 @@
+.productListUl{
+    list-style: none;
+    background-color: bisque;
+    width:170px;
+    padding: 10px;
+}
+.listEle{
+    background-color: aliceblue;
+    margin-bottom: 5px;
+    padding:10px;
+    font-family: monospace;
+}
+.searchBox{
+    width: 180px;
+    padding: 5px;
+}
+.appStyle{
+    margin: 20px;
+}
