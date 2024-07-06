@@ -1,8 +1,10 @@
 .productListUl{
     list-style: none;
     background-color: bisque;
-    width:170px;
     padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
 }
 .listEle{
     background-color: aliceblue;
@@ -17,3 +19,57 @@
 .appStyle{
     margin: 20px;
 }
+.optSelectBox{
+    width: 180px;
+    padding: 5px;
+}
+.editButton, .deleteButton, .saveButton, .cancelButton {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .editButton {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .deleteButton {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .saveButton {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .cancelButton {
+    background-color: #ff9800;
+    color: white;
+  }
+  .add-product-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .addProductForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputField {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .addButton {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
